@@ -1,0 +1,14 @@
+body{
+    padding:450px;
+    border-radius: 25px;
+    background-color: aquamarine;
+
+}
+form{
+    background-color: rgb(136, 91, 243);
+    padding: 50%;
+    margin: auto;
+    border-radius: 120px;
+    width: 500px;
+    height: 500px;
+}

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <form>
+        <h1> Quiz </h1>
+
+        <h3> Q1]  What is the only food that never spoils? </h3>
+        <label>
+            <input type="checkbox" name="q1" value="milk"> A) Milk
+        </label>
+        <label>
+            <input type="checkbox" name="q1" value="bread" >B) Bread
+        </label>
+        <label>
+            <input type="checkbox" name="q1" value="honey"> C) Honey
+        </label>
+        <label>
+            <input type="checkbox" name="q1"  value ="cheese">D) Cheese
+        </label>
+
+
+         <h3> Q2]  Which animal can sleep for up to 3 years at a time? </h3>
+        <label>
+            <input type="checkbox" name="q2" value="Bear"> A) Bear
+        </label>
+        <label>
+            <input type="checkbox" name="q2" value="Snail" >B) Snail
+        </label>
+        <label>
+            <input type="checkbox" name="q2" value="Tortoise"> C) Tortoise
+        </label>
+        <label>
+            <input type="checkbox" name="q2"  value ="Kangaroo">D) Kangaroo
+        </label>
+
+
+         <h3> Q3]  What color is the tongue of a giraffe? </h3>
+        <label>
+            <input type="checkbox" name="q3" value="Pink"> A) Pink
+        </label>
+        <label>
+            <input type="checkbox" name="q3" value="Purple" >B) Purple
+        </label>
+        <label>
+            <input type="checkbox" name="q3" value="Blue-black"> C) Blue-black
+
+        </label>
+        <label>
+            <input type="checkbox" name="q3"  value ="Red">D) Red
+        </label>
+
+
+         <h3> Q4]   Which app was originally created for rating people’s attractiveness at Harvard? </h3>
+        <label>
+            <input type="checkbox" name="q4" value="Instagram"> A) Instagram
+        </label>
+        <label>
+            <input type="checkbox" name="q4" value="Facebook" >B) Facebook
+        </label>
+        <label>
+            <input type="checkbox" name="q4" value="Snapchat"> C) Snapchat
+        </label>
+        <label>
+            <input type="checkbox" name="q4"  value ="WhatsApp">D) WhatsApp
+        </label>
+
+
+         <h3> Q5]  What’s the national animal of Scotland? </h3>
+        <label>
+            <input type="checkbox" name="q5" value="Unicorn"> A) Unicorn
+        </label>
+        <label>
+            <input type="checkbox" name="q5" value="Lion" >B) Lion
+        </label>
+        <label>
+            <input type="checkbox" name="q5" value="Horse"> C) Horse
+        </label>
+        <label>
+            <input type="checkbox" name="q5"  value ="Dragon">D) Dragon
+        </label> <br><br>
+
+        <br><br>
+
+      <button type="button" onclick="submitQuiz()">Submit</button>
+<button type="button" id="showBtn" onclick="showAnswers()" style="display:none;">Show Answers</button>
+<div id="result"></div>
+
+
+
+    </form>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
