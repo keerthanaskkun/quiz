@@ -1,20 +1,42 @@
-body{
-    padding:140px;
-    margin: auto;
-    border-radius: 25px;
-    background-color: aquamarine;
-
-}
-form{
-   
-     margin: auto;
-    
-    
-    width: 800px;
-    height: 800px;
+body {
+  padding: 140px;
+  margin: 0; /* Usually better to set to 0 when centering inside container */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Full viewport height */
+  background-color: #7FFFD4; /* aquamarine */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.box{
-    margin: auto;
-    background-color: aquamarine;
+form {
+  background-color: white;
+  margin: auto;
+  width: 600px; /* slightly narrower for better readability */
+  padding: 40px 50px;
+  border-radius: 25px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  box-sizing: border-box; /* includes padding in width */
+}
+
+.box {
+  background-color: #7FFFD4;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 15px;
+  width: 90%; /* responsive */
+  box-sizing: border-box;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Optional: improve inputs, buttons, labels */
+input[type="radio"], input[type="checkbox"] {
+  margin-right: 8px;
+}
+
+label {
+  display: block;
+  margin-bottom: 12px;
+  font-weight: 600;
+  color: #333;
 }
